@@ -1,0 +1,40 @@
+.sectionTools {
+    width: 100%;
+    height: 700px;
+    background-image: url('../images/waves9.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 150px 110px 20px;
+    margin-top: -2px;
+}
+
+.toolsTitle {
+    margin-top: 170px;
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+.software {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsoftware {
+    margin-top: 40px;
+    width: 20rem;
+}
+
+.cardsoftware img {
+    width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    .sectionTools {
+        padding: 80px 10px 20px;
+    }
+    .software {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,158 @@
+.footer {
+    width: 100%;
+    background-image: linear-gradient(45deg, #0099ff, #0087e0);
+    margin-top: 150px;
+    padding: 80px 110px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partOne,
+.partTwo,
+.partThree,
+.partFour {
+    width: 20rem;
+}
+
+.partTwo,
+.partThree {
+    text-align: center;
+}
+
+.partOne h1 {
+    padding-bottom: 10px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.partOne p {
+    padding-top: 10px;
+    line-height: 1.875rem;
+}
+
+.partTwo {
+    margin-left: 40px;
+}
+
+.partTwo h2 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+}
+
+.partTwo p {
+    line-height: 2.875rem;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.partThree {
+    margin-left: 10px;
+}
+
+.partThree h2 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+}
+
+.partThree p {
+    line-height: 2.875rem;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.partFour {
+    margin-left: 30px;
+}
+
+.partFour h2 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+}
+
+.partFour input {
+    padding: 10px 5px;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    padding: 8px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.submit:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.logofooter {
+    width: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 70px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .partOne {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .logofooter {
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .partTwo {
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .partTwo p {
+        padding-left: 0;
+        text-align: center;
+    }
+    .partThree {
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .partThree p {
+        padding-left: 0;
+        text-align: center;
+    }
+    .partFour {
+        margin: auto;
+        text-align: center;
+    }
+    .partFour h2 {
+        text-align: center;
+    }
+    .submit {
+        width: 17rem;
+    }
+}

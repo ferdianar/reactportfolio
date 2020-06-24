@@ -1,0 +1,52 @@
+.skillset {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.skillset h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+.skill {
+    width: 18rem;
+    padding: 30px;
+}
+
+.skill:nth-child(5) {
+    margin-top: 20px;
+}
+
+.imageSkill {
+    width: 80%;
+}
+
+.allskill {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 110px;
+}
+
+.allskill2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding: 30px 110px;
+}
+
+.allskill2 .imageSkill {
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .skillset {
+        margin-top: 40px;
+    }
+    .allskill {
+        flex-direction: column;
+    }
+    .allskill2 {
+        flex-direction: column;
+    }
+}

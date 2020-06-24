@@ -1,0 +1,88 @@
+.sectionTwo {
+    width: 100%;
+    background-image: url('../images/wave\(4\).svg');
+    background-repeat: no-repeat;
+    margin-top: -1px;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 110px;
+    margin-bottom: 250px;
+}
+
+.sectionTwo h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardProject {
+    width: 20rem;
+    margin-top: 50px;
+}
+
+.cardProject h2 {
+    padding-top: 20px;
+}
+
+.cardProject p {
+    padding-top: 10px;
+}
+
+.pictureProject {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.recentlyProject {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view {
+    margin-top: 20px;
+    padding: 10px 32px;
+    font-size: 14px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border: none;
+    color: #FFF;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .4s ease-out;
+    -webkit-transition: .4s ease-out;
+    -moz-transition: .4s ease-out;
+    -ms-transition: .4s ease-out;
+    -o-transition: .4s ease-out;
+}
+
+.view:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #d83c10 0%, #e2c012 100%);
+}
+
+@media screen and (max-width: 768px) {
+    .sectionTwo {
+        margin: 0;
+    }
+    .recentlyProject {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionTwo h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .cardProject {
+        margin-top: 100px;
+    }
+    .cardProject:first-child {
+        margin-top: 80px;
+    }
+    
+}
